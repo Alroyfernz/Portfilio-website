@@ -2,6 +2,7 @@ import About from "./components/About";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Self from "./components/Self";
 import Skills from "./components/Skills";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Card />
       <About />
+      <Self />
       <Skills />
       <Footer />
     </div>
