@@ -12,7 +12,7 @@ const About = () => {
         contributing to open source
       </p>
 
-      <ScrollIntoView selector="">
+      <ScrollIntoView selector="#tech">
         <div className="mx-auto p-20">
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>
