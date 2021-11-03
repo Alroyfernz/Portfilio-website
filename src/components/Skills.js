@@ -3,7 +3,7 @@ import { FaReact } from "react-icons/fa";
 const Skills = () => {
   return (
     <div className="max-w-4xl mx-auto justify-center py-12" id="tech">
-      <p className="text-2xl pt-4 text-black text-center md:text-4xl">
+      <p className="text-2xl pt-4 text-black text-center md:text-4xl font-bold">
         Tech I use
       </p>
       <div className="flex flex-wrap justify-center pt-2">

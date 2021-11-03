@@ -15,7 +15,7 @@ const About = () => {
         Get CV
       </button>
 
-      <ScrollIntoView selector="#tech">
+      <ScrollIntoView selector="#prod">
         <div className="mx-auto p-10">
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>
