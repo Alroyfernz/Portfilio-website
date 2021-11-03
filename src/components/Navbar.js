@@ -11,9 +11,7 @@ const Navbar = () => {
         <span className="text-2xl flex justify-center mt-10 text-gray-500 md:text-xl md:p-0 md:m-0 ">
           Home
         </span>
-        <span className="text-2xl flex mx-auto p-5 mt-2 text-gray-500 md:ml-8 md:text-xl md:p-0 md:m-0">
-          About us
-        </span>
+
         <span className="text-2xl flex  p-5 justify-center  text-gray-500 md:ml-8 md:text-xl  md:p-0 md:m-0">
           Projects
         </span>
