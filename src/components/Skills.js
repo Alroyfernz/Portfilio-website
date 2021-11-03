@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
           <FaReact color="#2196f3" className="mx-auto text-4xl" />
           <p className="mt-6 mx-auto text-xl sm:text-2xl font-semibold">
-            React
+            Node.js
           </p>
         </div>
         <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52">
