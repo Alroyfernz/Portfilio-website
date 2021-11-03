@@ -20,7 +20,7 @@ const Card = () => {
           </p>
           <div className="flex align-center justify-center mt-4 pb-3">
             <a
-              href=""
+              href="https://github.com/Alroyfernz"
               className="text-xl  m-1 p-1 sm:m-2 sm:p-2  text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
             >
               {" "}
@@ -28,7 +28,7 @@ const Card = () => {
               <span className="sr-only">GitHub</span>
             </a>
             <a
-              href=""
+              href="https://www.linkedin.com/in/alroy-fernandes-119496214/"
               className="text-xl  m-1 p-1 sm:m-2 sm:p-2  text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
             >
               {" "}
@@ -36,7 +36,7 @@ const Card = () => {
               <span className="sr-only">Linkedin</span>
             </a>
             <a
-              href=""
+              href="https://twitter.com/AlroyFernande10"
               className="text-xl  m-1 p-1 sm:m-2 sm:p-2  text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
             >
               {" "}
