@@ -32,7 +32,10 @@ const Footer = () => {
       <div className="flex justify-center mt-4">
         <p className="text-black mb-4">
           Made with{" "}
-          <span className="mr-2" role="link" aria-label="heart"></span> by{" "}
+          <span className="mr-2" role="link" aria-label="heart">
+            💙
+          </span>{" "}
+          by{" "}
           <a
             href="mailto:me.alroyfernandes07518@gmail.com"
             className="text-blue-500 hover:underline"

@@ -8,8 +8,8 @@ const About = () => {
         Hey 👋
       </p>
       <p className="text-base text-gray-600 sm:text-xl  text-center leading-relaxed mt-4">
-        I'm a passionate web developer and a competitve coder.I also love
-        contributing to open source
+        I'm a passionate web developer and a competitve coder.I'm currently I
+        also love contributing to open source
       </p>
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3">
         Get CV

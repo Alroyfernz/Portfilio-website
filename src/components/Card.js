@@ -8,14 +8,14 @@ const Card = () => {
           <img
             src="/portfolio.jpeg"
             alt="profilePic"
-            className="w-32 h-32 object-cover mx-auto shadow-xl rounded-full drop-shadow-sm"
+            className="w-32 h-32 object-cover mx-auto shadow-md rounded-full drop-shadow-sm"
           />
         </div>
         <div className="text-center mt-5">
           <p className="text-xl sm:text-2xl text-gray-900 font-semibold">
             Alroy Fernandes
           </p>
-          <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
+          <p className="text-sm sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
             Web/React Native Developer
           </p>
           <div className="flex align-center justify-center mt-4 pb-3">
