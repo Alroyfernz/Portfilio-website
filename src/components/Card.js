@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Card = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="home">
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
         <div className="">
           <img

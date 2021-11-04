@@ -1,11 +1,12 @@
 import React from "react";
 import ProjectComp from "./ProjectComp";
 import styled from "styled-components";
+import { projectData } from "./projectData";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Navigation } from "swiper";
+import SwiperCore, { Pagination, Autoplay, Navigation } from "swiper";
 // Import Swiper styles
 import "swiper/swiper-bundle.min.css";
-SwiperCore.use([Pagination, Navigation]);
+SwiperCore.use([Pagination, Autoplay, Navigation]);
 const ProjectSectionStyle = styled.div`
   .swiper-button-prev,
   .swiper-button-next {
@@ -32,6 +33,14 @@ const ProjectSectionStyle = styled.div`
   .swiper-button-next::after {
     font-size: 2rem;
   }
+  @media screen and (max-width: 768px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      height: 30px;
+      width: 30px;
+      top: 120px;
+    }
+  }
 `;
 const Self = () => {
   return (
@@ -47,7 +56,11 @@ const Self = () => {
           <Swiper
             spaceBetween={30}
             slidesPerView={3}
-            navigation={true}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
+            // navigation={true}
             // pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
@@ -67,18 +80,19 @@ const Self = () => {
               },
             }}
           >
-            <SwiperSlide>
-              <ProjectComp />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ProjectComp />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ProjectComp />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ProjectComp />
-            </SwiperSlide>
+            {projectData.map((project, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <ProjectComp
+                    title={project.title}
+                    img={project.img}
+                    desc={project.desc}
+                    demo={project.demo}
+                    code={project.code}
+                  />
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </div>

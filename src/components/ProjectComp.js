@@ -1,29 +1,22 @@
 import React from "react";
 
-const ProjectComp = () => {
+const ProjectComp = ({ title, img, desc, demo, code }) => {
   return (
     <div
       class="shadow-md rounded-md overflow-hidden shadow-xl"
-      style={{ width: "100%" }}
+      style={{ width: "100%", MaxHeight: "350px" }}
     >
-      <img
-        src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
-        class=""
-        alt=""
-      />
+      <img src={img} class="" alt="" />
 
       <div class="p-4">
-        <h5 class="text-xl font-semibold mb-2">Card title</h5>
+        <h5 class="text-xl font-semibold mb-2">{title}</h5>
 
-        <p class="mb-4">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis,
-          consequuntur.
-        </p>
+        <p class="mb-4">{desc}</p>
 
         <div className="flex justify-between">
           <button
             className="
-      bg-purple-500
+            bg-gray-400
       text-white
       active:bg-purple-600
       font-bold
@@ -44,12 +37,14 @@ const ProjectComp = () => {
     "
             type="button"
           >
-            Code
+            <a href={code} target="blank">
+              Code
+            </a>
           </button>
 
           <button
             className="
-      bg-purple-500
+      bg-gray-400
       text-white
       active:bg-purple-600
       font-bold
@@ -70,7 +65,9 @@ const ProjectComp = () => {
     "
             type="button"
           >
-            Demo
+            <a href={demo} target="blank">
+              Demo
+            </a>
           </button>
         </div>
       </div>
