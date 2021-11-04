@@ -2,10 +2,10 @@ import React from "react";
 import ProjectComp from "./ProjectComp";
 import styled from "styled-components";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import SwiperCore, { FreeMode, Pagination, Navigation } from "swiper";
 // Import Swiper styles
 import "swiper/swiper-bundle.min.css";
-
+SwiperCore.use([Pagination, Navigation]);
 const ProjectSectionStyle = styled.div`
   .swiper-button-prev,
   .swiper-button-next {
@@ -24,6 +24,10 @@ const ProjectSectionStyle = styled.div`
   .swiper-button-next {
     right: 0;
   }
+  .swiper-button-prev {
+    left: 0;
+    margin-right: 20px;
+  }
   .swiper-button-prev::after,
   .swiper-button-next::after {
     font-size: 2rem;
@@ -41,10 +45,9 @@ const Self = () => {
       <div className="flex justify-center  items-center">
         <div className="w-2/3 h-100%">
           <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={30}
             slidesPerView={3}
-            navigation
+            navigation={true}
             // pagination={{ clickable: true }}
             // scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
