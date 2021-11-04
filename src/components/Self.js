@@ -39,13 +39,14 @@ const Self = () => {
         Projects
       </span>
       <div className="flex justify-center  items-center">
-        <div className="w-2/3">
+        <div className="w-2/3 h-100%">
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
+            spaceBetween={30}
             slidesPerView={3}
             navigation
-            pagination={{ clickable: true }}
+            // pagination={{ clickable: true }}
+            // scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
             breakpoints={{
