@@ -2,7 +2,7 @@ import About from "./components/About";
 import Card from "./components/Card";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Self from "./components/Self";
 import Skills from "./components/Skills";
 import AOS from "aos";

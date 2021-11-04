@@ -1,6 +1,6 @@
 import React from "react";
-import { FaChevronDown } from "react-icons/fa";
-import ScrollIntoView from "react-scroll-into-view";
+// import { FaChevronDown } from "react-icons/fa";
+// import ScrollIntoView from "react-scroll-into-view";
 const About = () => {
   return (
     <div className="max-w-4xl mt-12 mx-auto flex justify-center items-center flex-col">
