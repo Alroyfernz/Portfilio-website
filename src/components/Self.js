@@ -2,7 +2,7 @@ import React from "react";
 import ProjectComp from "./ProjectComp";
 import styled from "styled-components";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { FreeMode, Pagination, Navigation } from "swiper";
+import SwiperCore, { Pagination, Navigation } from "swiper";
 // Import Swiper styles
 import "swiper/swiper-bundle.min.css";
 SwiperCore.use([Pagination, Navigation]);

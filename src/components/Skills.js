@@ -52,9 +52,9 @@ const Skills = () => {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto">
-              <SiJavascript color="#fcdc00" className="mx-auto text-4xl" />
-              <p className="mt-6 mx-auto text-xl sm:text-2xl font-semibold">
+            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto items-center justify-center">
+              <SiJavascript color="#fcdc00" className=" text-4xl" />
+              <p className="mt-6  text-xl sm:text-2xl font-semibold">
                 JavaScript
               </p>
             </div>

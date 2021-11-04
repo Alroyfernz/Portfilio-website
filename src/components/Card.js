@@ -6,7 +6,7 @@ const Card = () => {
       <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
         <div className="">
           <img
-            src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            src="/portfolio.jpeg"
             alt="profilePic"
             className="w-32 h-32 object-cover mx-auto shadow-xl rounded-full drop-shadow-sm"
           />
