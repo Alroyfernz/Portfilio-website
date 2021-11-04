@@ -12,8 +12,8 @@ AOS.init();
 function App() {
   return (
     <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100" id="home">
+      {/* <Navbar /> */}
       <div data-aos="fade-down" data-aos-duration="1000">
-        <Navbar />
         <Card />
       </div>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">

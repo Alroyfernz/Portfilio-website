@@ -44,11 +44,8 @@ const ProjectSectionStyle = styled.div`
 `;
 const Self = () => {
   return (
-    <ProjectSectionStyle>
-      <span
-        className="text-black  mx-auto flex  md:text-4xl justify-center text-2xl mb-8 font-bold"
-        id="prod"
-      >
+    <ProjectSectionStyle id="prod" className="mt-10">
+      <span className="text-black  mx-auto flex  md:text-4xl justify-center text-2xl mb-8 font-bold">
         Projects
       </span>
       <div className="flex justify-center  items-center">

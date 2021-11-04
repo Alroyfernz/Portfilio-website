@@ -7,19 +7,20 @@ const About = () => {
       <p className="text-2xl text-black md:text-4xl font-bold text-center">
         Hey 👋
       </p>
-      <p className="text-base text-gray-600 sm:text-xl  text-center leading-relaxed mt-4">
-        I'm a passionate web developer and a competitve coder.I'm currently I
-        also love contributing to open source
+      <p className="text-base text-gray-600 sm:text-xl  text-center leading-relaxed mt-4 mb-4">
+        I am an 20-year-old from Goa and I am currently a freshman studying
+        Computer Science at Goa College Of Engineering.I am a passionate
+        Developer who builds stuffs on the web and mobile.
       </p>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3 ">
         Get CV
       </button>
 
-      <ScrollIntoView selector="#prod">
-        <div className="mx-auto p-10">
+      {/* <ScrollIntoView selector="#prod">
+        <div className="mx-auto p-10 ">
           <FaChevronDown className="animate-bounce mx-auto text-3xl text-blue-500" />
         </div>
-      </ScrollIntoView>
+      </ScrollIntoView> */}
     </div>
   );
 };
