@@ -43,11 +43,9 @@ const Skills = () => {
         >
           <SwiperSlide>
             {" "}
-            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto">
-              <FaReact color="#2196f3" className="mx-auto text-4xl" />
-              <p className="mt-6 mx-auto text-xl sm:text-2xl font-semibold">
-                React
-              </p>
+            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto items-center justify-center">
+              <FaReact color="#2196f3" className=" text-4xl" />
+              <p className="mt-6  text-xl sm:text-2xl font-semibold">React</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -61,45 +59,41 @@ const Skills = () => {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto">
-              <FaNodeJs color="#026e00" className="mx-auto text-4xl" />
-              <p className="mt-6 mx-auto text-xl sm:text-2xl font-semibold">
-                Node.JS
-              </p>
+            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 items-center justify-center mx-auto">
+              <FaNodeJs color="#026e00" className=" text-4xl" />
+              <p className="mt-6 text-xl sm:text-2xl font-semibold">Node.JS</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto">
-              <SiTailwindcss color="#2196f3" className="mx-auto text-4xl" />
-              <p className="mt-6 mx-auto text-xl sm:text-xl font-semibold">
+            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 items-center justify-center mx-auto">
+              <SiTailwindcss color="#2196f3" className="\ text-4xl" />
+              <p className="mt-6  text-xl sm:text-xl font-semibold">
                 Tailwind CSS
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto">
-              <SiMongodb color="#026e00" className="mx-auto text-4xl" />
-              <p className="mt-6 mx-auto text-xl sm:text-2xl font-semibold">
-                MongoDB
-              </p>
+            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl items-center justify-center sm:w-52 mx-auto">
+              <SiMongodb color="#026e00" className=" text-4xl" />
+              <p className="mt-6  text-xl sm:text-2xl font-semibold">MongoDB</p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto">
-              <SiExpress className="mx-auto text-4xl" />
-              <p className="mt-6 mx-auto text-xl sm:text-2xl font-semibold">
+            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto items-center justify-center">
+              <SiExpress className=" text-4xl" />
+              <p className="mt-6  text-xl sm:text-2xl font-semibold">
                 Express.JS
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto">
-              <SiTypescript color="#2196f3" className="mx-auto text-4xl" />
-              <p className="mt-6 mx-auto text-xl sm:text-2xl font-semibold">
+            <div className="flex flex-col w-40 p-10 m-6 overflow-hidden bg-white rounded-xl sm:w-52 mx-auto items-center justify-center">
+              <SiTypescript color="#2196f3" className=" text-4xl" />
+              <p className="mt-6  text-xl sm:text-2xl font-semibold">
                 Typescript
               </p>
             </div>
