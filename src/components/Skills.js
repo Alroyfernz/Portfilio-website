@@ -14,12 +14,12 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const Skills = () => {
   return (
-    <div className="max-w-4xl mx-auto justify-center py-12" id="tech">
+    <div className="max-w-4xl mx-auto justify-center  py-6 md:py-12" id="tech">
       <p className="text-2xl pt-4 text-black text-center md:text-4xl font-bold">
-        Tech I use
+        Skills
       </p>
-      <div className="flex  justify-center pt-2">
-        <Swiper
+      <div className="flex  bg-gray-100 justify-center pt-2 flex flex-col rounded-md mt-4">
+        {/* <Swiper
           spaceBetween={30}
           slidesPerView={3}
           autoplay={{
@@ -98,7 +98,59 @@ const Skills = () => {
               </p>
             </div>
           </SwiperSlide>
-        </Swiper>
+        </Swiper> */}
+
+        <div className="flex justify-between flex-col md:flex-row">
+          <div className="flex flex-col justify-start items-center p-3 mb-6 md:p-7">
+            <span className="text-xl font-bold">Front-end</span>
+          </div>
+          <div className="flex  flex-col md:flex-row">
+            <div className="flex flex-col items-center justify-center mb-8">
+              <SiTypescript color="#2196f3" className=" text-4xl" />
+
+              <p className="mt-3  text-xl sm:text-xl font-semibold">
+                Typescript
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+              <FaReact color="#2196f3" className=" text-4xl" />
+              <p className="mt-3  text-xl sm:text-xl font-semibold">React</p>
+            </div>
+            <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+              <SiTailwindcss color="#2196f3" className="\ text-4xl" />
+              <p className="mt-3  text-xl sm:text-xl font-semibold">
+                Tailwind CSS
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center md:ml-5">
+              <SiJavascript color="#fcdc00" className=" text-4xl" />
+              <p className="mt-3  text-xl sm:text-xl font-semibold">
+                JavaScript
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-between flex-col md:flex-row md:mt-10">
+          <div className="flex flex-col justify-start items-center p-7">
+            <span className="text-xl font-bold">Back-end</span>
+          </div>
+          <div className="flex my-10 flex-col md:flex-row">
+            <div className="flex flex-col items-center justify-center ">
+              <SiExpress className=" text-4xl" />
+              <p className="mt-3  text-xl sm:text-xl font-semibold">
+                Express.JS
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-center md:ml-5">
+              <SiMongodb color="#026e00" className=" text-4xl" />
+              <p className="mt-3  text-xl sm:text-xl font-semibold">MongoDB</p>
+            </div>
+            <div className="flex flex-col items-center justify-center md:ml-5">
+              <FaNodeJs color="#026e00" className=" text-4xl" />
+              <p className="mt-3 text-xl sm:text-xl font-semibold">Node.JS</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
