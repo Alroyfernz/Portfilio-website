@@ -136,7 +136,7 @@ const Skills = () => {
                       Tailwind CSS
                     </p>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                  <div className="flex flex-col items-center justify-center md:ml-5 md:mb-8 mb-0">
                     <SiJavascript color="#fcdc00" className=" text-4xl" />
                     <p className="mt-3  text-lg sm:text-xl font-semibold">
                       JavaScript
