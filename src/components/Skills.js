@@ -14,6 +14,7 @@ import {
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 AOS.init();
+var x = window.matchMedia("(max-width: 500px)");
 const Skills = () => {
   return (
     <div className="max-w-4xl mx-auto justify-center  py-6 md:py-12" id="tech">
@@ -104,64 +105,153 @@ const Skills = () => {
           </SwiperSlide>
         </Swiper> */}
 
-        <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
-          <div className="flex justify-between flex-col md:flex-row md:mt-5">
-            <div className="flex flex-col justify-start items-center p-3 mb-6 md:p-7">
-              <span className="text-2xl font-bold">Front-end</span>
-            </div>
-            <div className="flex  flex-col md:flex-row">
-              <div className="flex flex-col items-center justify-center mb-8">
-                <SiTypescript color="#2196f3" className=" text-4xl" />
+        {x.matches ? (
+          <div>
+            <div
+              data-aos="fade-down"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <div className="flex justify-between flex-col md:flex-row md:mt-5">
+                <div className="flex flex-col justify-start items-center p-3 mb-6 md:p-7">
+                  <span className="text-2xl font-bold">Front-end</span>
+                </div>
+                <div className="flex  flex-col md:flex-row">
+                  <div className="flex flex-col items-center justify-center mb-8">
+                    <SiTypescript color="#2196f3" className=" text-4xl" />
 
-                <p className="mt-3  text-lg md:text-xl font-semibold">
-                  Typescript
-                </p>
+                    <p className="mt-3  text-lg md:text-xl font-semibold">
+                      Typescript
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                    <FaReact color="#2196f3" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      React
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                    <SiTailwindcss color="#2196f3" className="\ text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      Tailwind CSS
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                    <SiJavascript color="#fcdc00" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      JavaScript
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
-                <FaReact color="#2196f3" className=" text-4xl" />
-                <p className="mt-3  text-lg sm:text-xl font-semibold">React</p>
-              </div>
-              <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
-                <SiTailwindcss color="#2196f3" className="\ text-4xl" />
-                <p className="mt-3  text-lg sm:text-xl font-semibold">
-                  Tailwind CSS
-                </p>
-              </div>
-              <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
-                <SiJavascript color="#fcdc00" className=" text-4xl" />
-                <p className="mt-3  text-lg sm:text-xl font-semibold">
-                  JavaScript
-                </p>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <div className="flex justify-between flex-col md:flex-row md:mt-10 mt-10">
+                <div className="flex flex-col justify-start items-center md:p-7 p-3">
+                  <span className="text-2xl font-bold">Back-end</span>
+                </div>
+                <div className="flex my-10 flex-col md:flex-row">
+                  <div className="flex flex-col items-center justify-center ">
+                    <SiExpress className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      Express.JS
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <SiMongodb color="#026e00" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      MongoDB
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <FaNodeJs color="#026e00" className=" text-4xl" />
+                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                      Node.JS
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        ) : (
+          <div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <div className="flex justify-between flex-col md:flex-row md:mt-5">
+                <div className="flex flex-col justify-start items-center p-3 mb-6 md:p-7">
+                  <span className="text-2xl font-bold">Front-end</span>
+                </div>
+                <div className="flex  flex-col md:flex-row">
+                  <div className="flex flex-col items-center justify-center mb-8">
+                    <SiTypescript color="#2196f3" className=" text-4xl" />
 
-        <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
-          <div className="flex justify-between flex-col md:flex-row md:mt-10 mt-10">
-            <div className="flex flex-col justify-start items-center md:p-7 p-3">
-              <span className="text-2xl font-bold">Back-end</span>
+                    <p className="mt-3  text-lg md:text-xl font-semibold">
+                      Typescript
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                    <FaReact color="#2196f3" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      React
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                    <SiTailwindcss color="#2196f3" className="\ text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      Tailwind CSS
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                    <SiJavascript color="#fcdc00" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      JavaScript
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="flex my-10 flex-col md:flex-row">
-              <div className="flex flex-col items-center justify-center ">
-                <SiExpress className=" text-4xl" />
-                <p className="mt-3  text-lg sm:text-xl font-semibold">
-                  Express.JS
-                </p>
-              </div>
-              <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
-                <SiMongodb color="#026e00" className=" text-4xl" />
-                <p className="mt-3  text-lg sm:text-xl font-semibold">
-                  MongoDB
-                </p>
-              </div>
-              <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
-                <FaNodeJs color="#026e00" className=" text-4xl" />
-                <p className="mt-3 text-lg sm:text-xl font-semibold">Node.JS</p>
+
+            <div
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <div className="flex justify-between flex-col md:flex-row md:mt-10 mt-10">
+                <div className="flex flex-col justify-start items-center md:p-7 p-3">
+                  <span className="text-2xl font-bold">Back-end</span>
+                </div>
+                <div className="flex my-10 flex-col md:flex-row">
+                  <div className="flex flex-col items-center justify-center ">
+                    <SiExpress className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      Express.JS
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <SiMongodb color="#026e00" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                      MongoDB
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <FaNodeJs color="#026e00" className=" text-4xl" />
+                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                      Node.JS
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
