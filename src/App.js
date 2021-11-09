@@ -22,9 +22,10 @@ function App() {
       <div data-aos="fade-up" data-aos-duration="800">
         <Self />
       </div>
-      <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
-        <Skills />
-      </div>
+      {/* <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
+       
+      </div> */}
+      <Skills />
       <div data-aos="flip-left">
         <Contact />
       </div>
