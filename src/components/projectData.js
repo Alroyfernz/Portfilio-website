@@ -15,7 +15,7 @@ export const projectData = [
     demo: "https://clone-33642.web.app",
   },
   {
-    title: "Crpto-tracker",
+    title: "Crypto-tracker",
     img: "https://miro.medium.com/max/2000/1*dszBS7o1VXa1eDfkrnaP4A.png",
     desc: "This app is build using React/context api which fetches prices of various crytocurrencies",
     code: "",
