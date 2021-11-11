@@ -174,6 +174,17 @@ const Skills = () => {
                       Node.JS
                     </p>
                   </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                      width="36px"
+                      height="40px"
+                      alt=""
+                    />
+                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                      Python
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -245,6 +256,17 @@ const Skills = () => {
                     <FaNodeJs color="#026e00" className=" text-4xl" />
                     <p className="mt-3 text-lg sm:text-xl font-semibold">
                       Node.JS
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                      width="36px"
+                      height="40px"
+                      alt=""
+                    />
+                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                      Python
                     </p>
                   </div>
                 </div>
