@@ -2,17 +2,11 @@ export const projectData = [
   {
     title: "Facebook-clone",
     img: "/images/facebook-mern.PNG",
-    desc: "This Facebook-clone is build using the MERN stack with basically all features which are present in any social media application",
+    desc: "This Facebook-clone is build using the MERN stack with basically all features  which are present in any social media application with real-time chat with messenger",
     code: "https://github.com/Alroyfernz/Facebook-mern",
     demo: "https://facebook-merng.herokuapp.com/",
   },
-  {
-    title: "Blog-app",
-    img: "/images/blog.PNG",
-    desc: "This Blog-app is build using the MERN stack ",
-    code: "https://github.com/Alroyfernz/MERN-blogApp",
-    demo: "https://blog-app-merng.herokuapp.com/",
-  },
+
   {
     title: "Youtube-clone",
     img: "/images/youtube.PNG",

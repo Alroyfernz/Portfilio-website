@@ -9,11 +9,15 @@ const About = () => {
       </p>
       <p className="text-base text-gray-600 sm:text-xl  text-center leading-relaxed mt-4 mb-4">
         I am an 20-year-old from Goa and I am currently a freshman studying
-        Computer Science at Goa College Of Engineering.I am a passionate
-        Developer who builds stuffs on the web and mobile.
+        Computer Science at Goa College Of Engineering. A Developer by passion
+        who builds stuffs on the web and mobile.
       </p>
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3 ">
-        Get CV
+        <a href="/AlroyResume.pdf" download>
+          {" "}
+          {/* style={{ textDecoration: "none" }} */}
+          Get CV
+        </a>
       </button>
 
       {/* <ScrollIntoView selector="#prod">
