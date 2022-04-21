@@ -10,7 +10,9 @@ const Navbar = () => {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <div className="navbar-container">
         <div className="navbar-container-start">
-          <h1 className="navbar-container-start-text">alroyf</h1>
+          <a href="#home">
+            <h1 className="navbar-container-start-text">alroyf</h1>
+          </a>
         </div>
         <div className="navbar-container-mid">
           <ul className="navbar-container-mid-box">
@@ -21,15 +23,18 @@ const Navbar = () => {
 
             <li>
               {" "}
-              <a href="#abour"> About</a>
+              <a href="#home"> About</a>
             </li>
             <li>
-              <a href="#prod"> Projects</a>
+              <a href="#projects"> Projects</a>
             </li>
           </ul>
         </div>
         <div className="navbar-container-end">
-          <button>contact me</button>
+          <button>
+            {" "}
+            <a href="#contact">contact me</a>{" "}
+          </button>
         </div>
         <div className="navbar-container-menu">
           <button

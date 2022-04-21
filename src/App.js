@@ -45,14 +45,14 @@ function App() {
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
           <About />
         </div>
-        <div data-aos="fade-up" data-aos-duration="800">
+        <div data-aos="fade-up" data-aos-duration="800" id="projects">
           <Self />
         </div>
         {/* <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
        
       </div> */}
         <Skills />
-        <div data-aos="fade-down">
+        <div data-aos="fade-down" id="contact">
           <Contact />
         </div>
         <Footer />

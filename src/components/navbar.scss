@@ -23,6 +23,7 @@
         align-items: center;
         justify-content: space-between;
         &-start {
+            pointer-events: auto;
             width: 10%;
             &-text {
                 text-transform: uppercase;
@@ -36,6 +37,7 @@
             min-width: 70%;
             // background: rgb(111, 111, 34) !important;
             // width: fit-content;
+            pointer-events: auto;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -60,6 +62,7 @@
         &-end {
             width: fit-content;
             // background: #000;
+            pointer-events: auto;
             button {
                 backdrop-filter: blur(16px) saturate(121%);
                 -webkit-backdrop-filter: blur(16px) saturate(121%);
