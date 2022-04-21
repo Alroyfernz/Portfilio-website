@@ -17,7 +17,7 @@
     "react-slick": "^0.28.1",
     "sass": "^1.50.1",
     "scroll": "^3.0.1",
-    "styled-components": "^5.3.3",
+    "styled-components": "^5.3.5",
     "swiper": "^6.0.2",
     "web-vitals": "^1.0.1"
   },

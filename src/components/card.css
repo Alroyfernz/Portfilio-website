@@ -5,3 +5,14 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
+
+.btn-main{
+    backdrop-filter: blur(16px) saturate(121%);
+                -webkit-backdrop-filter: blur(16px) saturate(121%);
+                background-color: rgba(255, 255, 255, 0.05);
+                border-radius: 10px;
+                border: 1px solid rgba(255, 255, 255, 0.125);
+                border-radius: 8px;
+                color: #fff;
+                padding: 3px;
+}
