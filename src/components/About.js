@@ -14,7 +14,7 @@ const About = () => {
         who builds stuffs on the web and mobile.
       </p>
       <button class=" card hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-3 ">
-        <a href="/AlroyResume.pdf" download>
+        <a href="/Alroy_Fernandes_CV.pdf" download>
           {" "}
           {/* style={{ textDecoration: "none" }} */}
           Get CV

@@ -4,10 +4,10 @@ import { FaTimes } from "react-icons/fa";
 const menuData = [{ title: "Home" }, { title: "About" }, { title: "Projects" }];
 const DropdwonContainer = styled.div`
   position: fixed;
-  z-index: 999;
+  z-index: 9990099;
   background-image: url("https://tailwindcss.com/_next/static/media/hero-dark@90.a7a063e8f9d179fbd72b0b735c5797b7.jpg");
   width: 100%;
-  height: 100%;
+  height: 100vh;
   /* background: #161f28; */
   display: grid;
   align-items: center;

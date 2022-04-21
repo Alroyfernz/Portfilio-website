@@ -4,6 +4,7 @@
     padding-top: 20px;
     padding-bottom: 5px;
     display: flex;
+    pointer-events: none;
     // -webkit-box-shadow: -5px 11px 29px -10px rgba(255, 255, 255, 0.1);
     // -moz-box-shadow: -5px 11px 29px -10px rgba(255, 255, 255, 0.1);
     // box-shadow: -5px 11px 29px -10px rgba(255, 255, 255, 0.1);
@@ -74,6 +75,7 @@
             }
         }
         &-menu {
+            pointer-events: auto;
             .hamberg-menu {
                 display: none;
                 color: #fff;

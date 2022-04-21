@@ -19,21 +19,27 @@ const Navbar = () => {
               <a href="#home"> Home</a>
             </li>
 
-            <li>About</li>
-            <li>Projects</li>
+            <li>
+              {" "}
+              <a href="#abour"> About</a>
+            </li>
+            <li>
+              <a href="#prod"> Projects</a>
+            </li>
           </ul>
         </div>
         <div className="navbar-container-end">
           <button>contact me</button>
         </div>
-        <div
-          className="navbar-container-menu"
-          onClick={() => {
-            toggle(!isOpen);
-            console.log(isOpen);
-          }}
-        >
-          <HiMenuAlt3 className="hamberg-menu" />
+        <div className="navbar-container-menu">
+          <button
+            onClick={() => {
+              toggle(!isOpen);
+              console.log(isOpen);
+            }}
+          >
+            <HiMenuAlt3 className="hamberg-menu" />
+          </button>
         </div>
       </div>
     </nav>
