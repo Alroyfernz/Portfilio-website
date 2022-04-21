@@ -3,7 +3,9 @@ import "./card.css";
 const Button = ({ text, href }) => {
   return (
     <button className="btn-main">
-      <a href={href}>{text}</a>
+      <a href={href} target="_blank">
+        {text}
+      </a>
     </button>
   );
 };

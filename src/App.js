@@ -31,7 +31,13 @@ function App() {
         }}
         id="home"
       >
-        <Navbar />
+        <div
+          style={{ position: "sticky", top: 0, zIndex: 9999 }}
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <Navbar />
+        </div>
         {/* <Navbar /> */}
         <div data-aos="fade-down" data-aos-duration="1000">
           <Card />
