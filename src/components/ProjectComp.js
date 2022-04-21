@@ -15,8 +15,8 @@ const ProjectComp = ({ title, img, desc, demo, code }) => {
         <p class="mb-4 text-gray-300">{desc}</p>
 
         <div className="flex justify-between">
-          <Button text="code" href={code} />
-          <Button text="demo" href={demo} />
+          <Button text="code" href={code} big={false} />
+          <Button text="demo" href={demo} big={false} />
         </div>
       </div>
     </div>
