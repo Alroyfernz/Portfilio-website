@@ -4,15 +4,18 @@ import React from "react";
 const About = () => {
   return (
     <div className="max-w-4xl mt-12 mx-auto flex justify-center items-center flex-col">
-      <p className="text-2xl text-black md:text-4xl font-bold text-center">
+      <p className="text-2xl text-white md:text-4xl font-bold text-center">
         Hey 👋
       </p>
-      <p className="text-base text-gray-600 sm:text-xl  text-center leading-relaxed mt-4 mb-4">
+      <p className="text-base text-gray-300 sm:text-xl  text-center leading-relaxed mt-4 mb-4">
         I am an 20-year-old from Goa and I am currently a freshman studying
         Computer Science at Goa College Of Engineering. A Developer by passion
         who builds stuffs on the web and mobile.
       </p>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3 ">
+      <button
+        style={{ backgroundColor: "rgb(12 74 110)" }}
+        class="hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-3 "
+      >
         <a href="/AlroyResume.pdf" download>
           {" "}
           {/* style={{ textDecoration: "none" }} */}
