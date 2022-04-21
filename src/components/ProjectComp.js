@@ -7,7 +7,12 @@ const ProjectComp = ({ title, img, desc, demo, code }) => {
       class=" card shadow-md rounded-md overflow-hidden shadow-xl"
       style={{ width: "100%", MaxHeight: "350px" }}
     >
-      <img src={img} class="" alt="" />
+      <img
+        src={img}
+        class=""
+        alt=""
+        style={{ objectFit: "cover", maxHeight: "150px", width: "100%" }}
+      />
 
       <div class="p-4">
         <h5 class="text-xl font-semibold mb-2 text-white">{title}</h5>
