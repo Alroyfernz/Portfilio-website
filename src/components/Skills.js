@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <div className="max-w-4xl mx-auto justify-center  py-6 md:py-12" id="tech">
       <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
-        <p className="text-4xl pt-4 text-black text-center md:text-4xl font-bold">
+        <p className="text-4xl pt-4 text-white text-center md:text-4xl font-bold">
           Skills
         </p>
       </div>
@@ -114,31 +114,36 @@ const Skills = () => {
             >
               <div className="flex justify-between flex-col md:flex-row md:mt-5">
                 <div className="flex flex-col justify-start items-center p-3 mb-6 md:p-7">
-                  <span className="text-2xl font-bold">Front-end</span>
+                  <span className="text-2xl font-bold text-gray-300">
+                    Front-end
+                  </span>
                 </div>
-                <div className="flex  flex-col md:flex-row">
-                  <div className="flex flex-col items-center justify-center mb-8">
+                <div
+                  className="flex flex-wrap items-center
+                justify-center md:flex-row"
+                >
+                  <div className="flex flex-col items-center justify-center m-2">
                     <SiTypescript color="#2196f3" className=" text-4xl" />
 
-                    <p className="mt-3  text-lg md:text-xl font-semibold">
+                    <p className="mt-3  text-lg md:text-xl font-semibold text-gray-300">
                       Typescript
                     </p>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-2">
                     <FaReact color="#2196f3" className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       React
                     </p>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-2">
                     <SiTailwindcss color="#2196f3" className="\ text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       Tailwind CSS
                     </p>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:ml-5 md:mb-8 mb-0">
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-2 mb-0">
                     <SiJavascript color="#fcdc00" className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       JavaScript
                     </p>
                   </div>
@@ -153,35 +158,37 @@ const Skills = () => {
             >
               <div className="flex justify-between flex-col md:flex-row md:mt-10 mt-10">
                 <div className="flex flex-col justify-start items-center md:p-7 p-3">
-                  <span className="text-2xl font-bold">Back-end</span>
+                  <span className="text-2xl font-bold text-gray-300">
+                    Back-end
+                  </span>
                 </div>
-                <div className="flex my-10 flex-col md:flex-row">
+                <div className="flex my-10 items-center justify-center flex-wrap md:flex-row">
                   <div className="flex flex-col items-center justify-center ">
                     <SiExpress className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       Express.JS
                     </p>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
                     <SiMongodb color="#026e00" className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       MongoDB
                     </p>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
                     <FaNodeJs color="#026e00" className=" text-4xl" />
-                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                    <p className="mt-3 text-lg sm:text-xl font-semibold text-gray-300">
                       Node.JS
                     </p>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
                       width="36px"
                       height="40px"
                       alt=""
                     />
-                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                    <p className="mt-3 text-lg sm:text-xl font-semibold text-gray-300">
                       Python
                     </p>
                   </div>
@@ -198,31 +205,33 @@ const Skills = () => {
             >
               <div className="flex justify-between flex-col md:flex-row md:mt-5">
                 <div className="flex flex-col justify-start items-center p-3 mb-6 md:p-7">
-                  <span className="text-2xl font-bold">Front-end</span>
+                  <span className="text-2xl font-bold text-gray-300">
+                    Front-end
+                  </span>
                 </div>
-                <div className="flex  flex-col md:flex-row">
+                <div className="flex  flex-row md:flex-row">
                   <div className="flex flex-col items-center justify-center mb-8">
                     <SiTypescript color="#2196f3" className=" text-4xl" />
 
-                    <p className="mt-3  text-lg md:text-xl font-semibold">
+                    <p className="mt-3  text-lg md:text-xl font-semibold text-gray-300">
                       Typescript
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
                     <FaReact color="#2196f3" className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       React
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
                     <SiTailwindcss color="#2196f3" className="\ text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       Tailwind CSS
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
                     <SiJavascript color="#fcdc00" className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       JavaScript
                     </p>
                   </div>
@@ -237,24 +246,26 @@ const Skills = () => {
             >
               <div className="flex justify-between flex-col md:flex-row md:mt-10 mt-10">
                 <div className="flex flex-col justify-start items-center md:p-7 p-3">
-                  <span className="text-2xl font-bold">Back-end</span>
+                  <span className="text-2xl font-bold text-gray-300">
+                    Back-end
+                  </span>
                 </div>
                 <div className="flex my-10 flex-col md:flex-row">
                   <div className="flex flex-col items-center justify-center ">
                     <SiExpress className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       Express.JS
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
                     <SiMongodb color="#026e00" className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold">
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       MongoDB
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
                     <FaNodeJs color="#026e00" className=" text-4xl" />
-                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                    <p className="mt-3 text-lg sm:text-xl font-semibold text-gray-300">
                       Node.JS
                     </p>
                   </div>
@@ -265,7 +276,7 @@ const Skills = () => {
                       height="40px"
                       alt=""
                     />
-                    <p className="mt-3 text-lg sm:text-xl font-semibold">
+                    <p className="mt-3 text-lg sm:text-xl font-semibold text-gray-300">
                       Python
                     </p>
                   </div>
