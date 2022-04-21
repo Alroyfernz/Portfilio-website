@@ -54,7 +54,7 @@ const Self = () => {
             spaceBetween={30}
             slidesPerView={3}
             autoplay={{
-              delay: 3500,
+              delay: 5500,
               disableOnInteraction: false,
             }}
             // navigation={true}

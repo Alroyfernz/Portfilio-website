@@ -22,7 +22,7 @@ const Card = () => {
           <div className="flex align-center justify-center mt-4 pb-3">
             <a
               href="https://github.com/Alroyfernz"
-              className="text-xl  m-1 p-1 sm:m-2 sm:p-2 bg-gray-800   text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
+              className="text-xl  m-1 p-1 sm:m-2 sm:p-2 bg-gray-800   text-white hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
             >
               {" "}
               <FaGithub />
