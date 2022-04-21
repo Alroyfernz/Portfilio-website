@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import AOS from "aos";
 
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Navbar from "./components/Navbar.jsx";
 // ..
 AOS.init();
 function App() {
@@ -21,33 +22,36 @@ function App() {
     console.log(container);
   };
   return (
-    <div
-      className="min-h-screen py-10 px-3 sm:px-5"
-      style={{
-        backgroundImage:
-          "url(https://tailwindcss.com/_next/static/media/hero-dark@90.a7a063e8f9d179fbd72b0b735c5797b7.jpg)",
-      }}
-      id="home"
-    >
-      {/* <Navbar /> */}
-      <div data-aos="fade-down" data-aos-duration="1000">
-        <Card />
-      </div>
-      <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-        <About />
-      </div>
-      <div data-aos="fade-up" data-aos-duration="800">
-        <Self />
-      </div>
-      {/* <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
+    <>
+      <div
+        className="h-full"
+        style={{
+          backgroundImage:
+            "url(https://tailwindcss.com/_next/static/media/hero-dark@90.a7a063e8f9d179fbd72b0b735c5797b7.jpg)",
+        }}
+        id="home"
+      >
+        <Navbar />
+        {/* <Navbar /> */}
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <Card />
+        </div>
+        <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+          <About />
+        </div>
+        <div data-aos="fade-up" data-aos-duration="800">
+          <Self />
+        </div>
+        {/* <div data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
        
       </div> */}
-      <Skills />
-      <div data-aos="flip-left">
-        <Contact />
+        <Skills />
+        <div data-aos="fade-down">
+          <Contact />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 

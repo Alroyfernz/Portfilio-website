@@ -1,6 +1,7 @@
 import React from "react";
 // import { FaChevronDown } from "react-icons/fa";
 // import ScrollIntoView from "react-scroll-into-view";
+import "./card.css";
 const About = () => {
   return (
     <div className="max-w-4xl mt-12 mx-auto flex justify-center items-center flex-col">
@@ -12,10 +13,7 @@ const About = () => {
         Computer Science at Goa College Of Engineering. A Developer by passion
         who builds stuffs on the web and mobile.
       </p>
-      <button
-        style={{ backgroundColor: "rgb(12 74 110)" }}
-        class="hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-3 "
-      >
+      <button class=" card hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mt-3 ">
         <a href="/AlroyResume.pdf" download>
           {" "}
           {/* style={{ textDecoration: "none" }} */}

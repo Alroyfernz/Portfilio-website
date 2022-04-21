@@ -23,7 +23,7 @@ const Skills = () => {
           Skills
         </p>
       </div>
-      <div className="flex  bg-gray-100 justify-center pt-2 flex flex-col rounded-md mt-4">
+      <div className="flex   justify-center pt-2 flex flex-col rounded-md mt-4">
         {/* <Swiper
           spaceBetween={30}
           slidesPerView={3}
