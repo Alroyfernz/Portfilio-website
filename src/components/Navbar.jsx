@@ -1,12 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.scss";
 import { HiMenuAlt3 } from "react-icons/hi";
 import Dropdown from "./Dropdown";
 const Navbar = () => {
   const [isOpen, toggle] = useState(false);
+  const [change, setChange] = useState(false);
+
+  const toggleNav = () => {
+    if (window.scrollY >= 100) {
+      setChange(true);
+    } else {
+      setChange(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", toggleNav);
+  });
 
   return (
-    <nav className="navbar">
+    <nav className={change ? "navbar-change" : "navbar"}>
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <div className="navbar-container">
         <div className="navbar-container-start">

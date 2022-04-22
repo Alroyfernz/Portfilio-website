@@ -5,7 +5,7 @@ const ProjectComp = ({ title, img, desc, demo, code }) => {
   return (
     <div
       class=" card shadow-md rounded-md overflow-hidden shadow-xl"
-      style={{ width: "100%", MaxHeight: "350px" }}
+      style={{ width: "100%", MaxHeight: "350px", minHeight: "400px" }}
     >
       <img
         src={img}
