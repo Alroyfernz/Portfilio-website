@@ -3,7 +3,8 @@ import React from "react";
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { SiPostgresql, SiFlutter } from "react-icons/si";
+import { FaReact, FaNodeJs, FaAngular, FaJava } from "react-icons/fa";
 import {
   SiJavascript,
   SiTailwindcss,
@@ -135,6 +136,7 @@ const Skills = () => {
                       React
                     </p>
                   </div>
+
                   <div className="flex flex-col items-center justify-center md:ml-5 m-2">
                     <SiTailwindcss color="#2196f3" className="\ text-4xl" />
                     <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
@@ -163,12 +165,6 @@ const Skills = () => {
                   </span>
                 </div>
                 <div className="flex my-10 items-center justify-center flex-wrap md:flex-row">
-                  <div className="flex flex-col items-center justify-center ">
-                    <SiExpress className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
-                      Express.JS
-                    </p>
-                  </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
                     <SiMongodb color="#026e00" className=" text-4xl" />
                     <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
@@ -176,9 +172,26 @@ const Skills = () => {
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
+                    <FaJava color="#D0A384" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
+                      Java
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
                     <FaNodeJs color="#026e00" className=" text-4xl" />
                     <p className="mt-3 text-lg sm:text-xl font-semibold text-gray-300">
                       Node.JS
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                      width="36px"
+                      height="40px"
+                      alt=""
+                    />
+                    <p className="mt-3 text-lg sm:text-xl font-semibold text-gray-300">
+                      Python
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
@@ -217,10 +230,17 @@ const Skills = () => {
                       Typescript
                     </p>
                   </div>
+
                   <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
                     <FaReact color="#2196f3" className=" text-4xl" />
                     <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
-                      React
+                      React/native
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
+                    <SiFlutter color="#2196f3" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
+                      Flutter
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mb-8">
@@ -251,16 +271,34 @@ const Skills = () => {
                   </span>
                 </div>
                 <div className="flex my-10 flex-col md:flex-row">
-                  <div className="flex flex-col items-center justify-center ">
-                    <SiExpress className=" text-4xl" />
-                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
-                      Express.JS
-                    </p>
-                  </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
                     <SiMongodb color="#026e00" className=" text-4xl" />
                     <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
                       MongoDB
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <FaJava color="#D0A384" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
+                      Java
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">
+                    <SiPostgresql color="#B4D6E0" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
+                      Postgresql
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5  md:mt-0">
+                    <img
+                      src="/goprog.png"
+                      width="68px"
+                      height="20px"
+                      alt=""
+                      style={{ objectFit: "cover" }}
+                    />
+                    <p className="mt-4 text-lg sm:text-xl mt-1 font-semibold text-gray-300">
+                      Go
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 mt-11 md:mt-0">

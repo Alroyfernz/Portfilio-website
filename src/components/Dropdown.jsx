@@ -1,7 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
-const menuData = [{ title: "Home" }, { title: "About" }, { title: "Projects" }];
+const menuData = [
+  { title: "Home", link: "#home" },
+  { title: "About", link: "#home" },
+  { title: "Projects", link: "#projects" },
+];
 const DropdwonContainer = styled.div`
   position: fixed;
   z-index: 9990099;
@@ -39,6 +43,7 @@ const Button = styled.button`
   border-radius: 20px;
   color: #fff;
   padding: 7px;
+  pointer-events: auto;
 `;
 const DropdownMenu = styled.div`
   display: grid;
@@ -53,6 +58,7 @@ const DropdownMenu = styled.div`
 `;
 const DropdownLink = styled.a`
   display: flex;
+  pointer-events: ${({ isOpen }) => (!isOpen ? "auto" : "none")};
   color: #fff;
   align-items: center;
   justify-content: center;
@@ -94,7 +100,7 @@ const Dropdown = ({ toggle, isOpen }) => {
         </DropdownMenu>
         <BtnWrap>
           <Button primary="true" round="true" to="#contact">
-            Contact us
+            <a href="#contact">Contact us</a>
           </Button>
         </BtnWrap>
       </DropdownWrapper>
