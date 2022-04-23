@@ -133,10 +133,15 @@ const Skills = () => {
                   <div className="flex flex-col items-center justify-center md:ml-5 m-2">
                     <FaReact color="#2196f3" className=" text-4xl" />
                     <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
-                      React
+                      React/native
                     </p>
                   </div>
-
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-2">
+                    <SiFlutter color="#2196f3" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
+                      Flutter
+                    </p>
+                  </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 m-2">
                     <SiTailwindcss color="#2196f3" className="\ text-4xl" />
                     <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
@@ -184,14 +189,21 @@ const Skills = () => {
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
+                    <SiPostgresql color="#B4D6E0" className=" text-4xl" />
+                    <p className="mt-3  text-lg sm:text-xl font-semibold text-gray-300">
+                      Postgresql
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
-                      width="36px"
-                      height="40px"
+                      src="/goprog.png"
+                      width="68px"
+                      height="20px"
                       alt=""
+                      style={{ objectFit: "cover" }}
                     />
-                    <p className="mt-3 text-lg sm:text-xl font-semibold text-gray-300">
-                      Python
+                    <p className="mt-4 text-lg sm:text-xl mt-1 font-semibold text-gray-300">
+                      Go
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center md:ml-5 m-3 md:mt-0">
