@@ -5,7 +5,12 @@ const ProjectComp = ({ title, img, desc, demo, code }) => {
   return (
     <div
       class=" card shadow-md rounded-md overflow-hidden shadow-xl"
-      style={{ width: "100%", MaxHeight: "350px", minHeight: "400px" }}
+      style={{
+        width: "100%",
+        MaxHeight: "350px",
+        minHeight: "420px",
+        position: "relative",
+      }}
     >
       <img
         src={img}
@@ -17,9 +22,22 @@ const ProjectComp = ({ title, img, desc, demo, code }) => {
       <div class="p-4">
         <h5 class="text-xl font-semibold mb-2 text-white">{title}</h5>
 
-        <p class="mb-4 text-gray-300">{desc}</p>
+        <p
+          class="mb-4 text-gray-300"
+          style={{
+            // minHeight: 100,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          {desc}
+        </p>
 
-        <div className="flex justify-between">
+        <div
+          className="flex justify-between"
+          style={{ position: "absolute", bottom: 10, width: "90%" }}
+        >
           <Button text="code" href={code} big={false} />
           <Button text="demo" href={demo} big={false} />
         </div>
