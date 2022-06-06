@@ -36,7 +36,12 @@ const ProjectComp = ({ title, img, desc, demo, code }) => {
 
         <div
           className="flex justify-between"
-          style={{ position: "absolute", bottom: 10, width: "90%" }}
+          style={{
+            position: "absolute",
+            bottom: 10,
+            width: "90%",
+            pointerEvents: "auto",
+          }}
         >
           <Button text="code" href={code} big={false} />
           <Button text="demo" href={demo} big={false} />
