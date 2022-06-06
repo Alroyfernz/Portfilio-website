@@ -8,7 +8,7 @@ const ProjectComp = ({ title, img, desc, demo, code }) => {
       style={{
         width: "100%",
         MaxHeight: "350px",
-        minHeight: "420px",
+        minHeight: "450px",
         position: "relative",
       }}
     >
