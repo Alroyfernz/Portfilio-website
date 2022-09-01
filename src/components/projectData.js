@@ -2,11 +2,45 @@ export const projectData = [
   {
     title: "Ecommerce Mobile app",
     img: "/images/Mediquik.png",
-    desc: "Created a Full stack Ecommerce application usinf React-native ,Nodejs and Mongodb.Also created an admin apk to track incoming orders.",
+    desc: "Created an E-commerce android application based on the concept of 1MG.Developed 2 more application for one for admin and other for delivery partner. ",
     code: "/",
     demo: "https://www.youtube.com/watch?v=xVs6zw1NtBc&ab_channel=AlroyFernandes",
   },
-
+  {
+    title: "Pednekar Jewellery Website",
+    img: "/images/Pednekar.png",
+    desc: "Created a E-COMMERCE application based on the concept of TANISHQ having features similar to modern applications like flipkart,amazon. ",
+    code: "/",
+    demo: "https://www.youtube.com/watch?v=xVs6zw1NtBc&ab_channel=AlroyFernandes",
+  },
+  {
+    title: "Static Car Rental WebPage",
+    img: "/images/MogaWheels.png",
+    desc: "Created a website to display various services,vehicles provided by the client who is based in Calangute,Goa",
+    code: "/",
+    demo: "https://car-rental-two.vercel.app/",
+  },
+  {
+    title: "Photography Website",
+    img: "/images/3gFotos.png",
+    desc: "Created a static website for a client based in Goa to help scale his business",
+    code: "/",
+    demo: "https://photography-client.vercel.app/",
+  },
+  {
+    title: " Static Hotel Website",
+    img: "/images/VillaGG.png",
+    desc: "Created a Single Page webpage(no booking facility) for a client to showcase various services they offer.",
+    code: "/",
+    demo: "https://villa-gods-gift.000webhostapp.com/",
+  },
+  {
+    title: "Static Villa Website",
+    img: "/images/VillaAA.png",
+    desc: "Created a Landing Page  for a client to showcase various services he is providing in the Real-Estate.",
+    code: "/",
+    demo: "https://real-estate-app-mu-two.vercel.app/",
+  },
   {
     title: "Social media application",
     img: "/images/facebook-mern.PNG",
