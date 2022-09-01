@@ -11,7 +11,7 @@ export const projectData = [
     img: "/images/Pednekar.png",
     desc: "Created a E-COMMERCE application based on the concept of TANISHQ having features similar to modern applications like flipkart,amazon. ",
     code: "/",
-    demo: "https://www.youtube.com/watch?v=xVs6zw1NtBc&ab_channel=AlroyFernandes",
+    demo: "https://www.pednekarjewellery.com/",
   },
   {
     title: "Static Car Rental WebPage",
